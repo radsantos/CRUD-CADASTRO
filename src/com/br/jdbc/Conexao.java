@@ -21,7 +21,7 @@ public class Conexao {
         
         try{
             
-           return DriverManager.getConnection("jdbc:mysql://localhost/db_aluno", "root", "Allin1_2022");
+           return DriverManager.getConnection("jdbc:mysql://localhost/name_for_database", "user", "password");
            
            
         }catch(SQLException erro){
